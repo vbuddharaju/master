@@ -19,7 +19,7 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         DEST_DIR: 'dev'
         
-   deploy-qa:
+  deploy-qa:
     runs-on: ubuntu-latest
     environment: dev
     steps:
