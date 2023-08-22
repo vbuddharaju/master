@@ -21,7 +21,7 @@ jobs:
         
   deploy-qa:
     runs-on: ubuntu-latest
-    environment: dev
+    environment: qa
     steps:
     - uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
